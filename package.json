@@ -1,0 +1,37 @@
+{
+	"name": "@onyoucode/webpack",
+	"version": "1.2.2",
+	"type": "commonjs",
+	"description": "A simple Node.js boilerplate based on Webpack",
+	"bin": {
+		"@onyoucode/webpack": "./bin/index.js"
+	},
+	"keywords": [
+		"node",
+		"boilerplate",
+		"typescript",
+		"webpack"
+	],
+	"scripts": {
+		"start": "node ./bin/index.js"
+	},
+	"author": {
+		"name": "ParkSangRyang",
+		"email": "onyou.code@gmail.com",
+		"url": "https://github.com/devonyou"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^4.1.1",
+		"inquirer": "^8.2.4"
+	},
+	"files": [
+		"sources/",
+		"bin/",
+		"package.json"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/devonyou/-onyoucode-webpack.git"
+	}
+}
